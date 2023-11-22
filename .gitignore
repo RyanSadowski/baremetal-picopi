@@ -1,1 +1,13 @@
-pioasm
+*.o
+*.elf
+*.uf2
+*.hex
+*.bin
+*.dis
+*.map
+*.temp
+*.tmp
+
+*.swo
+*.swp
+
