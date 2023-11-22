@@ -1,0 +1,3 @@
+/home/namo/Dev/blinkyboi/pioasm/CMakeFiles/pioasm.dir
+/home/namo/Dev/blinkyboi/pioasm/CMakeFiles/edit_cache.dir
+/home/namo/Dev/blinkyboi/pioasm/CMakeFiles/rebuild_cache.dir
