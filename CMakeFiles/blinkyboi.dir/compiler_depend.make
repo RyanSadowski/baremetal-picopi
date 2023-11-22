@@ -46,7 +46,10 @@ CMakeFiles/blinkyboi.dir/blinkyboi.c.obj: blinkyboi.c \
   /usr/arm-none-eabi/include/newlib.h \
   /usr/arm-none-eabi/include/stdint.h \
   /usr/arm-none-eabi/include/stdio.h \
+  /usr/arm-none-eabi/include/string.h \
+  /usr/arm-none-eabi/include/strings.h \
   /usr/arm-none-eabi/include/sys/_intsup.h \
+  /usr/arm-none-eabi/include/sys/_locale.h \
   /usr/arm-none-eabi/include/sys/_stdint.h \
   /usr/arm-none-eabi/include/sys/_types.h \
   /usr/arm-none-eabi/include/sys/cdefs.h \
@@ -55,6 +58,7 @@ CMakeFiles/blinkyboi.dir/blinkyboi.c.obj: blinkyboi.c \
   /usr/arm-none-eabi/include/sys/lock.h \
   /usr/arm-none-eabi/include/sys/reent.h \
   /usr/arm-none-eabi/include/sys/stdio.h \
+  /usr/arm-none-eabi/include/sys/string.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
@@ -2827,25 +2831,13 @@ CMakeFiles/blinkyboi.dir/home/namo/Packages/pico-sdk/src/rp2_common/pico_unique_
 
 /home/namo/Packages/pico-sdk/src/common/pico_util/pheap.c:
 
-/home/namo/Packages/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
-
-/home/namo/Packages/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
-
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
-
-/home/namo/Packages/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
-
-/home/namo/Packages/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
-
-/home/namo/Packages/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
-
-/home/namo/Packages/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
-
-/home/namo/Packages/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
-
-/home/namo/Packages/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
-
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h:
+
+blinkyboi.c:
+
+/usr/arm-none-eabi/include/sys/timespec.h:
+
+/home/namo/Packages/pico-sdk/lib/tinyusb/src/osal/osal.h:
 
 /usr/arm-none-eabi/include/sys/stdio.h:
 
@@ -2871,19 +2863,17 @@ CMakeFiles/blinkyboi.dir/home/namo/Packages/pico-sdk/src/rp2_common/pico_unique_
 
 /usr/arm-none-eabi/include/sys/cdefs.h:
 
-/home/namo/Packages/pico-sdk/src/rp2_common/pico_platform/platform.c:
+/usr/arm-none-eabi/include/sys/_sigset.h:
 
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
-
-/home/namo/Packages/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
+/usr/arm-none-eabi/include/strings.h:
 
 /home/namo/Packages/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
-
-/usr/arm-none-eabi/include/sys/_intsup.h:
 
 /home/namo/Packages/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
 /usr/arm-none-eabi/include/string.h:
+
+/usr/arm-none-eabi/include/sys/_intsup.h:
 
 /home/namo/Packages/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
 
@@ -2894,8 +2884,6 @@ CMakeFiles/blinkyboi.dir/home/namo/Packages/pico-sdk/src/rp2_common/pico_unique_
 /home/namo/Packages/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/mpu.h:
 
 /home/namo/Packages/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h:
-
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
 
 /home/namo/Packages/pico-sdk/src/common/pico_base/include/pico/assert.h:
 
@@ -2939,6 +2927,12 @@ CMakeFiles/blinkyboi.dir/home/namo/Packages/pico-sdk/src/rp2_common/pico_unique_
 
 generated/pico_base/pico/version.h:
 
+/usr/arm-none-eabi/include/sys/sched.h:
+
+/usr/arm-none-eabi/include/sys/string.h:
+
+/home/namo/Packages/pico-sdk/lib/tinyusb/src/device/usbd.c:
+
 /home/namo/Packages/pico-sdk/src/common/pico_base/include/pico.h:
 
 /home/namo/Packages/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
@@ -2962,18 +2956,6 @@ generated/pico_base/pico/config_autogen.h:
 /home/namo/Packages/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_qspi.h:
 
 /usr/arm-none-eabi/include/_newlib_version.h:
-
-blinkyboi.c:
-
-/usr/arm-none-eabi/include/sys/timespec.h:
-
-/home/namo/Packages/pico-sdk/lib/tinyusb/src/osal/osal.h:
-
-/usr/arm-none-eabi/include/sys/sched.h:
-
-/home/namo/Packages/pico-sdk/lib/tinyusb/src/device/usbd.c:
-
-/usr/arm-none-eabi/include/sys/string.h:
 
 /home/namo/Packages/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
 
@@ -3011,9 +2993,27 @@ blinkyboi.c:
 
 /home/namo/Packages/pico-sdk/src/common/pico_time/include/pico/time.h:
 
+/home/namo/Packages/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
+
+/home/namo/Packages/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
+
 /home/namo/Packages/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
 
 /home/namo/Packages/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
+
+/home/namo/Packages/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
+
+/home/namo/Packages/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h:
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
+
+/home/namo/Packages/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+
+/home/namo/Packages/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+
+/home/namo/Packages/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
+
+/home/namo/Packages/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
 
 /home/namo/Packages/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
@@ -3024,6 +3024,14 @@ blinkyboi.c:
 /home/namo/Packages/pico-sdk/src/common/pico_util/datetime.c:
 
 /home/namo/Packages/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
+
+/home/namo/Packages/pico-sdk/src/rp2_common/pico_platform/platform.c:
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
+
+/home/namo/Packages/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
 
 /home/namo/Packages/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
 
@@ -3078,10 +3086,6 @@ blinkyboi.c:
 /home/namo/Packages/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
 
 /home/namo/Packages/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
-
-/usr/arm-none-eabi/include/sys/_sigset.h:
-
-/usr/arm-none-eabi/include/strings.h:
 
 /home/namo/Packages/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
 

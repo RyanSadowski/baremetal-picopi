@@ -15,6 +15,10 @@ CMakeFiles/blinkyboi.dir/blinkyboi.c.obj: \
  /usr/arm-none-eabi/include/machine/_types.h \
  /usr/arm-none-eabi/include/sys/lock.h \
  /usr/arm-none-eabi/include/sys/stdio.h \
+ /usr/arm-none-eabi/include/string.h \
+ /usr/arm-none-eabi/include/sys/_locale.h \
+ /usr/arm-none-eabi/include/strings.h \
+ /usr/arm-none-eabi/include/sys/string.h \
  /home/namo/Packages/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/namo/Packages/pico-sdk/src/common/pico_base/include/pico.h \
  /home/namo/Packages/pico-sdk/src/common/pico_base/include/pico/types.h \
